@@ -62,11 +62,11 @@ class RedditScraper(Scraper):
     # *** member variables ***
     # hold pickle file of reddit submissions
     __pickledSubs: bytes
-    __personalUseScript = 'Xg1TzmCGtbHcQQ'
-    __secret = '0HnIVUpJwOAp_-R0vVwt55Js5ds'
-    __user_agent = 'PyScraper'
-    __username = 'Arsenal4891'
-    __password = 'javapython'
+    __personalUseScript = ''
+    __secret = ''
+    __user_agent = '
+    __username = ''
+    __password = ''
     # *** member variables ***
 
 
