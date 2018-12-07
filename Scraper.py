@@ -134,19 +134,19 @@ class twitterScraper(Scraper):
 
     # *** member variables for twitter api
     __pickled_tweet_data: bytes
-    __consumer_key = "fjr7cYJKLtG1Gnm6zLMrw9xXe"
-    __consumer_secret_key = "96EMZVDlp7vPDUklinKPYETEln2HrAXtLTbkxry2WbYeD20DgX"
-    __access_key = "1069081694982918146-V2gEiXIYK5HE05OWBI76pvjjFsoE9J"
-    __access_secret = "hmxQLchOyzK6nohfqFqp2K1lfPE9ldCM5ecedACY2yhP1"
+    __consumer_key = ""
+    __consumer_secret_key = ""
+    __access_key = ""
+    __access_secret = ""
     # *** member variables for twitter api
 
     def __init__(self, term_):
         super().__init__(term_)
         self.__pickled_tweet_data = ""
-        self.__consumer_key = "fjr7cYJKLtG1Gnm6zLMrw9xXe"
-        self.__consumer_secret_key = "96EMZVDlp7vPDUklinKPYETEln2HrAXtLTbkxry2WbYeD20DgX"
-        self.__access_key = "1069081694982918146-V2gEiXIYK5HE05OWBI76pvjjFsoE9J"
-        self.__access_secret= "hmxQLchOyzK6nohfqFqp2K1lfPE9ldCM5ecedACY2yhP1"
+        self.__consumer_key = ""
+        self.__consumer_secret_key = ""
+        self.__access_key = "-"
+        self.__access_secret= ""
 
     def runScrapper(self):
 
